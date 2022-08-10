@@ -1,0 +1,11 @@
+Package: pneuve
+Type: Package
+Title: Predicts serotype specific pneumococcal conjugate vaccine effectiveness
+Version: 0.1.0
+Author: Josiah Ryman
+Maintainer: Josiah Ryman (josiah.ryman@merck.com)
+Description: This package predicts pneumococcal conjugate vaccine (PCV) effectiveness for shared serotypes with current PCV using summary-level (mean and 95% CI) current PCV serotype specific effectiveness data, summary-level (geometric mean and 95% CI) current PCV serotype specific IgG data, and summary-level (geometric mean and 95% CI) new PCV serotype specific IgG data.
+License: MIT License
+LazyData: FALSE
+Imports:
+  tidyverse
