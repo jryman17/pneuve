@@ -7,7 +7,9 @@ In the current state the function only uses summary-level data. A future iterati
 ### Installation
 ***
 devtools::install_github("jryman17/pneuve")
+
 or
+
 download zip file
 
 ### How to Use the Function
