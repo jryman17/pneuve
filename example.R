@@ -1,5 +1,7 @@
 ####Example run using Serotype 4 as an example
 library(tidyverse)
+library(rstudioapi)
+setwd(dirname(getActiveDocumentContext()$path))
 source("./R/PneuVE.R")
 
 ser4sim <- VEpred(nsim=100,seed=realization,obs.VEs=c(97, 65, 100),
